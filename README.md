@@ -8,6 +8,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * [Select Line To The Right of Cursor](#select-line-to-the-right-of-cursor)
 * [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
 * [Select To The End From Cursor](#select-to-the-end-from-cursor)
+* [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
 
 ## Scripts
 ### Go to End of Line
@@ -50,9 +51,18 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ![Select To The End From Cursor Gif][5]
 
+### Select To The Beginning From Cursor
+* Original Keys:
+  * Shift+Home
+* After Script:
+  * Ctrl+Shift+Alt+Up
+
+![Select To The Beginning From Cursor Gif][6]
+
 <!-- Image Paths -->
 [1]: media/GoToEndOfLine.gif
 [2]: media/GoToStartOfLine.gif
 [3]: media/SelectLineRight.gif
 [4]: media/SelectLineLeft.gif
 [5]: media/SelectToEnd.gif
+[6]: media/SelectToStart.gif
