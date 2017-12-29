@@ -2,6 +2,6 @@
 {
 Send, ^c
 Sleep 15
-Run, http://www.google.com/search?q=%clipboard%
+Run, https://www.google.com/search?q=%clipboard%
 Return
 }
