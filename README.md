@@ -2,6 +2,10 @@
 
 A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
+### Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?
+I decided to use those key combinations as the hotkey triggers because
+I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier to select words in the text. So I decided to expand on that functionality with `Alt` being the AutoHotKey trigger.
+
 ## List of Scripts
 * [Go To End of Line](#go-to-end-of-line)
 * [Go To Beginning of Line](#go-to-beginning-of-line)
