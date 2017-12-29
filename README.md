@@ -7,7 +7,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * [Go To Start of Line](#go-to-start-of-line)
 * [Select Line To The Right of Cursor](#select-line-to-the-right-of-cursor)
 * [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
-* [Select To The End From Cursor](select-to-the-end-from-cursor)
+* [Select To The End From Cursor](#select-to-the-end-from-cursor)
 
 ## Scripts
 ### Go to End of Line
@@ -48,7 +48,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * After Script:
   * Ctrl+Shift+Alt+Down
 
-![Select Line To The Left of Cursor Gif][5]
+![Select To The End From Cursor Gif][5]
 
 <!-- Image Paths -->
 [1]: media/GoToEndOfLine.gif
