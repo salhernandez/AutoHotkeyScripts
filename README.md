@@ -9,6 +9,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
 * [Select To The End From Cursor](#select-to-the-end-from-cursor)
 * [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
+* [Search Anything](#search-anything)
 
 ## Scripts
 ### Go to End of Line
@@ -59,6 +60,19 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ![Select To The Beginning From Cursor Gif][6]
 
+### Search Anything
+* Original Steps:
+  1. Copy Text
+  2. Go to Google
+  3. Paste Text
+  4. Search
+* After Script:
+  * Ctrl+Shift+Alt+A
+
+Inspired by [lifehacker][lifehacker]
+
+![Search Anything Gif][7]
+
 <!-- Image Paths -->
 [1]: media/GoToEndOfLine.gif
 [2]: media/GoToStartOfLine.gif
@@ -66,3 +80,5 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 [4]: media/SelectLineLeft.gif
 [5]: media/SelectToEnd.gif
 [6]: media/SelectToStart.gif
+[7]: media/SearchAnything.gif
+[lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
