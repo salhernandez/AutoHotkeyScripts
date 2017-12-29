@@ -5,7 +5,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 ## List of Scripts
 * [Go To End of Line](#go-to-end-of-line)
 * [Go To Start of Line](#go-to-start-of-line)
-* [Select Line To The Right of Cursor](#select-Line-to-the-right-of-cursor)
+* [Select Line To The Right of Cursor](#select-line-to-the-right-of-cursor)
 
 ## Scripts
 ### Go to End of Line
