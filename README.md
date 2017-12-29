@@ -3,7 +3,7 @@
 A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ## List of Scripts
-* [Go To end of Line](#go-to-end-of-line)
+* [Go To End of Line](#go-to-end-of-line)
 
 ## Scripts
 ### Go to End of Line
