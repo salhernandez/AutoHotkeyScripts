@@ -4,7 +4,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ## List of Scripts
 * [Go To End of Line](#go-to-end-of-line)
-* [Go To Start of Line](#go-to-start-of-line)
+* [Go To Beginning of Line](#go-to-beginning-of-line)
 * [Select Line To The Right of Cursor](#select-line-to-the-right-of-cursor)
 * [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
 * [Select To The End From Cursor](#select-to-the-end-from-cursor)
@@ -12,7 +12,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * [Search Anything](#search-anything)
 
 ## Scripts
-### Go to End of Line
+### Go To End Of Line
 * Original Key:
   * End
 * After Script:
@@ -20,7 +20,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ![Go To End of Line Gif][1]
 
-### Go To Start of Line
+### Go To Beginning of Line
 * Original Key:
   * Home
 * After Script:
@@ -28,7 +28,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ![Go To End of Line Gif][2]
 
-### Select Line To The Right of Cursor
+### Select Line To The Right Of Cursor
 * Original Keys:
   * Shift+End
 * After Script:
@@ -36,7 +36,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 
 ![Select Line To The Right of Cursor Gif][3]
 
-### Select Line To The Left of Cursor
+### Select Line To The Left Of Cursor
 * Original Keys:
   * Shift+Home
 * After Script:
@@ -75,10 +75,10 @@ Inspired by [lifehacker][lifehacker]
 
 <!-- Image Paths -->
 [1]: media/GoToEndOfLine.gif
-[2]: media/GoToStartOfLine.gif
-[3]: media/SelectLineRight.gif
-[4]: media/SelectLineLeft.gif
-[5]: media/SelectToEnd.gif
-[6]: media/SelectToStart.gif
+[2]: media/GoToBegginingOfLine.gif
+[3]: media/SelectLineToTheRightOfCursor.gif
+[4]: media/SelectLineToTheLeftOfCursor.gif
+[5]: media/SelectToTheEndFromCursor.gif
+[6]: media/SelectToTheBeginningFromCursor.gif
 [7]: media/SearchAnything.gif
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
