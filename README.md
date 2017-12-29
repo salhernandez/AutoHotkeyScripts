@@ -26,7 +26,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 ![Go To End of Line Gif][2]
 
 ### Select Line To The Right of Cursor
-* Original Key:
+* Original Keys:
   * Shift+End
 * After Script:
   * Ctrl+Shift+Alt+Right
@@ -34,7 +34,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 ![Select Line To The Right of Cursor Gif][3]
 
 ### Select Line To The Left of Cursor
-* Original Key:
+* Original Keys:
   * Shift+Home
 * After Script:
   * Ctrl+Shift+Alt+Left
