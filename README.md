@@ -12,4 +12,7 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
 * After Script:
   * Ctrl+Alt+Right
 
-!(Go To End of Line Gif)[https://raw.githubusercontent.com/salhernandez/AutoHotkeyScripts/readme/media/GoToEndOfLine.gif]
+![Go To End of Line Gif][1]
+
+<!-- Image Paths -->
+[1]: media/GoToEndOfLine.gif
