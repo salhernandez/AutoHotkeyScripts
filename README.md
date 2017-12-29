@@ -5,6 +5,8 @@ A Set of AutoHotKey scripts to make a programmer's life easier.
 ### Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?
 Those key combinations as the hotkeys because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier to select words in the text. So I decided to expand on that functionality with `Alt` being the AutoHotKey trigger.
 
+### Download [AutoHotKey][AutoHotKey]
+
 ## List of Scripts
 * [Go To End of Line](#go-to-end-of-line)
 * [Go To Beginning of Line](#go-to-beginning-of-line)
@@ -85,3 +87,4 @@ Inspired by [lifehacker][lifehacker]
 [6]: media/SelectToTheBeginningFromCursor.gif
 [7]: media/SearchAnything.gif
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
+[AutoHotKey]: https://autohotkey.com/download/
