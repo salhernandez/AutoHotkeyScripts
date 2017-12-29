@@ -11,3 +11,5 @@ A Set of AutoHotKeyScripts that I made to make my programming life easier.
   * End
 * After Script:
   * Ctrl+Alt+Right
+
+!(Go To End of Line Gif)[https://raw.githubusercontent.com/salhernandez/AutoHotkeyScripts/readme/media/GoToEndOfLine.gif]
