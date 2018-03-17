@@ -3,7 +3,7 @@
 A Set of AutoHotKey scripts to make a programmer's life easier.
 
 ### Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?
-Those key combinations as the hotkeys because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier to select words in the text. So I decided to expand on that functionality with `Alt` being the AutoHotKey trigger.
+Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier to select words in the text. So I decided to expand on that functionality with `Alt` being the AutoHotKey trigger.
 
 ### Download [AutoHotKey][AutoHotKey]
 
