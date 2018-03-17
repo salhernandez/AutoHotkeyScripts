@@ -1,3 +1,3 @@
-^!Down::
+^Down::
    Send {PgDn}
 Return
