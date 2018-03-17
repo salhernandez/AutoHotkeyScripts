@@ -1,0 +1,3 @@
+^!Down::
+   Send {PgDn}
+Return

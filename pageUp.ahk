@@ -1,0 +1,3 @@
+^!Up::
+   Send {PgUp}
+Return
