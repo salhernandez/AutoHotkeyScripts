@@ -65,6 +65,22 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 
 ![Select To The Beginning From Cursor Gif][6]
 
+### Page Down
+* Original Key:
+  * Page Down
+* After Script:
+  * Ctrl+Down
+
+![Page Down Gif][8]
+
+### Page Up
+* Original Key:
+  * Page Up
+* After Script:
+  * Ctrl+Up
+
+![Page Up Gif][9]
+
 ### Search Anything
 * Original Steps:
   1. Copy Text
@@ -86,5 +102,8 @@ Inspired by [lifehacker][lifehacker]
 [5]: media/SelectToTheEndFromCursor.gif
 [6]: media/SelectToTheBeginningFromCursor.gif
 [7]: media/SearchAnything.gif
+[8]: media/PageDown.gif
+[9]: media/PageUp.gif
+
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
