@@ -65,14 +65,6 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 
 ![Select To The Beginning From Cursor Gif][6]
 
-### Page Down
-* Original Key:
-  * Page Down
-* After Script:
-  * Ctrl+Down
-
-![Page Down Gif][8]
-
 ### Delete Word
 * Original Key:
   * Ctrl+Delete
@@ -80,6 +72,20 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
   * Alt+Backspace
 
 ![Delete Word Gif Gif][10]
+
+### Wrap Text in Quotes:
+* Use:
+  * Select Text, then Ctrl+Shift+'
+
+![Wrap Text in Quotes Gif][11]
+
+### Page Down
+* Original Key:
+  * Page Down
+* After Script:
+  * Ctrl+Down
+
+![Page Down Gif][8]
 
 ### Page Up
 * Original Key:
@@ -113,6 +119,7 @@ Inspired by [lifehacker][lifehacker]
 [8]: media/PageDown.gif
 [9]: media/PageUp.gif
 [10]: media/DeleteWord.gif
+[11]: media/wrapTextInQuotes.gif
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
