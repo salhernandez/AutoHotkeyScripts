@@ -73,6 +73,14 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 
 ![Page Down Gif][8]
 
+### Delete Word
+* Original Key:
+  * Ctrl+Delete
+* After Script:
+  * Alt+Backspace
+
+![Delete Word Gif Gif][10]
+
 ### Page Up
 * Original Key:
   * Page Up
@@ -104,6 +112,7 @@ Inspired by [lifehacker][lifehacker]
 [7]: media/SearchAnything.gif
 [8]: media/PageDown.gif
 [9]: media/PageUp.gif
+[10]: media/DeleteWord.gif
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
