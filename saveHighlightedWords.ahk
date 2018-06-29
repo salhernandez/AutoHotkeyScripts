@@ -4,6 +4,8 @@ F1:: FileAppend, % GetSelectedText(), %File%
 
 ; Credits to dylan904 for the base code
 ; https://autohotkey.com/board/topic/83364-script-to-append-selected-text-to-a-file/
+; If your active window is not a browser, append use the title for the information
+; Else use the title and GetActiveBrowserURL.ahk to also add the URL as a hyperlink
 
 GetSelectedText(
 {
