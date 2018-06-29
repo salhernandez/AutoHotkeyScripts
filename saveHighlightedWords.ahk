@@ -14,7 +14,10 @@ GetSelectedText()
 
    ClipWait, 1 ; wait until clipboard contains data
 
-   selection = `n`n##### %Clipboard% ; save the content of the clipboard
+   WinGet, active_id, ID, A
+   WinGetTitle, this_title, ahk_id %active_id%
+
+   selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
 
    Clipboard = %tmp% ; restore old content of the clipboard
 
