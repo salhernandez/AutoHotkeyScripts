@@ -14,7 +14,12 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 * [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
 * [Select To The End From Cursor](#select-to-the-end-from-cursor)
 * [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
+* [Delete Word](#delete-word)
+* [Wrap Text in Quotes](#wrap-text-in-quotes)
+* [Page Down](#page-down)
+* [Page Up](#page-up)
 * [Search Anything](#search-anything)
+* [Save Highlighted Text](#save-highlighted-text)
 
 ## Scripts
 ### Go To End Of Line
@@ -71,7 +76,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 * After Script:
   * Alt+Backspace
 
-![Delete Word Gif Gif][10]
+![Delete Word Gif][10]
 
 ### Wrap Text in Quotes:
 * Use:
@@ -108,6 +113,39 @@ Inspired by [lifehacker][lifehacker]
 
 ![Search Anything Gif][7]
 
+### Save Highlighted Text
+##### What it does:
+Saves the highlited text to a file, and it saves it with markdown syntax to a .md file
+
+Example:
+##### TODAY'S HIGHLIGHTED DEALS
+* Steam
+* *12:35 AM Sunday, July 1, 2018*
+
+```Markdown
+##### TODAY'S HIGHLIGHTED DEALS
+* Steam
+* *12:35 AM Sunday, July 1, 2018*
+```
+The header cotains the highlighted text, then the name of the window where it got it from, then a timestamp.
+
+- [x] Can get Active URLs from Web browser
+  * Support for Chrome, Edge, IE, Opera, and Firefox
+- [x] Attach timestamp to information
+- [x] All the highlights of the day are saved on one file
+  * A new file is generated every day
+
+##### Installation Steps
+After downloading the script, modify `HighlightsDirectory` to point to the folder that will contain your highlights. Then run the .ahk script.
+
+##### TL;DR
+* Original Steps:
+  1. Too Many
+* After Script:
+  1. Ctrl+Shift+,
+
+![Save Highlighted Text Gif][12]
+
 <!-- Image Paths -->
 [1]: media/GoToEndOfLine.gif
 [2]: media/GoToBegginingOfLine.gif
@@ -120,6 +158,7 @@ Inspired by [lifehacker][lifehacker]
 [9]: media/PageUp.gif
 [10]: media/DeleteWord.gif
 [11]: media/wrapTextInQuotes.gif
+[12]: media/saveHighlightedText.gif
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
