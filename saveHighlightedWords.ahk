@@ -7,7 +7,7 @@ F1:: FileAppend, % GetSelectedText(), %File%
 ; If your active window is not a browser, append use the title for the information
 ; Else use the title and GetActiveBrowserURL.ahk to also add the URL as a hyperlink
 
-GetSelectedText(
+GetSelectedText()
 {
    tmp = %ClipboardAll% ; save clipboard
 
