@@ -24,7 +24,6 @@ GetSelectedText()
 
    Needle := "Chrome"
    If InStr(this_title, Needle){
-       MsgBox, The string was found.
        nTime := A_TickCount
      	sURL := GetActiveBrowserURL()
      	WinGetClass, sClass, A
@@ -36,7 +35,6 @@ GetSelectedText()
      		selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
    }
    Else{
-       MsgBox, The string was not found.
        selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
    }
 	 Clipboard = %tmp% ; restore old content of the clipboard
