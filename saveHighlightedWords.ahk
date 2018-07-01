@@ -11,6 +11,10 @@ Return
 
 GetSelectedText()
 {
+   WinGet, active_id, ID, A
+   WinGetTitle, this_title, ahk_id %active_id%
+   FormatTime, Time
+
    tmp = %ClipboardAll% ; save clipboard
 
    Clipboard := "" ; clear clipboard
@@ -19,23 +23,20 @@ GetSelectedText()
 
    ClipWait, 1 ; wait until clipboard contains data
 
-   WinGet, active_id, ID, A
-   WinGetTitle, this_title, ahk_id %active_id%
-
    Needle := "Chrome"
    If InStr(this_title, Needle){
        nTime := A_TickCount
      	sURL := GetActiveBrowserURL()
      	WinGetClass, sClass, A
      	If (sURL != "")
-     		selection = `n`n##### %Clipboard% `n* %sURL% ; save the content of the clipboard
+     		selection = `n`n##### %Clipboard% `n* %sURL% `n* *%Time%*; save the content of the clipboard
      	Else If sClass In % ModernBrowsers "," LegacyBrowsers
-     		selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
+     		selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
      	Else
-     		selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
+     		selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
    }
    Else{
-       selection = `n`n##### %Clipboard% `n* %this_title% ; save the content of the clipboard
+       selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
    }
 	 Clipboard = %tmp% ; restore old content of the clipboard
    return selection
