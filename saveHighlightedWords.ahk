@@ -23,20 +23,22 @@ GetSelectedText()
 
    ClipWait, 1 ; wait until clipboard contains data
 
+   DefaultString = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%*
+   
    Needle := "Chrome"
    If InStr(this_title, Needle){
        nTime := A_TickCount
      	sURL := GetActiveBrowserURL()
      	WinGetClass, sClass, A
      	If (sURL != "")
-     		selection = `n`n##### %Clipboard% `n* %sURL% `n* *%Time%*; save the content of the clipboard
+     		selection = `n`n##### %Clipboard% `n* %sURL% `n* *%Time%*
      	Else If sClass In % ModernBrowsers "," LegacyBrowsers
-     		selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
+     		selection = %DefaultString%
      	Else
-     		selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
+     		selection = %DefaultString%
    }
    Else{
-       selection = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%* ; save the content of the clipboard
+       selection = %DefaultString%
    }
 	 Clipboard = %tmp% ; restore old content of the clipboard
    return selection
