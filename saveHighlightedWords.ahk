@@ -24,9 +24,9 @@ GetSelectedText()
    ClipWait, 1 ; wait until clipboard contains data
 
    DefaultString = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%*
-   
-   Needle := "Chrome"
-   If InStr(this_title, Needle){
+
+   MsgBox, %this_title%
+   If (InStr(this_title, "Google Chrome") or InStr(this_title, "Mozilla Firefox") or InStr(this_title, "Microsoft Edge") or InStr(this_title, "Internet Explorer") or InStr(this_title, "Opera")){
        nTime := A_TickCount
      	sURL := GetActiveBrowserURL()
      	WinGetClass, sClass, A
