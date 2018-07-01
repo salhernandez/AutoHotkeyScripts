@@ -2,6 +2,9 @@
 ;replace the directory path with the folder that will contains all of your Highlights
 HighlightsDirectory := "D:\Documents\Highlights\"
 
+ModernBrowsers := "ApplicationFrameWindow,Chrome_WidgetWin_0,Chrome_WidgetWin_1,Maxthon3Cls_MainFrm,MozillaWindowClass,Slimjet_WidgetWin_1"
+LegacyBrowsers := "IEFrame,OperaWindowClass"
+
 ^+,::
 FormatTime, TimeString, YYYYMMDDHH24MISS , MM_dd_yy
 
@@ -13,8 +16,7 @@ Return
 
 GetSelectedText()
 {
-   ModernBrowsers := "ApplicationFrameWindow,Chrome_WidgetWin_0,Chrome_WidgetWin_1,Maxthon3Cls_MainFrm,MozillaWindowClass,Slimjet_WidgetWin_1"
-   LegacyBrowsers := "IEFrame,OperaWindowClass"
+
    WinGet, active_id, ID, A
    WinGetTitle, this_title, ahk_id %active_id%
    FormatTime, Time
