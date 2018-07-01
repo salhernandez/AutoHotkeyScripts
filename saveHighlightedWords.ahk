@@ -1,16 +1,20 @@
 #SingleInstance force
-File := "D:\Desktop\Scratch\stuff.md"
-Menu, Tray, Icon, % A_WinDir "\system32\netshell.dll", 86 ; Shows a world icon in the system tray
+;replace the directory path with the folder that will contains all of your Highlights
+HighlightsDirectory := "D:\Documents\Highlights\"
 
-ModernBrowsers := "ApplicationFrameWindow,Chrome_WidgetWin_0,Chrome_WidgetWin_1,Maxthon3Cls_MainFrm,MozillaWindowClass,Slimjet_WidgetWin_1"
-LegacyBrowsers := "IEFrame,OperaWindowClass"
+^+,::
+FormatTime, TimeString, YYYYMMDDHH24MISS , MM_dd_yy
 
-F1:: FileAppend, % GetSelectedText(), %File%
+FileName= %HighlightsDirectory%%TimeString%.md
+
+FileAppend, % GetSelectedText(), %FileName%
 
 Return
 
 GetSelectedText()
 {
+   ModernBrowsers := "ApplicationFrameWindow,Chrome_WidgetWin_0,Chrome_WidgetWin_1,Maxthon3Cls_MainFrm,MozillaWindowClass,Slimjet_WidgetWin_1"
+   LegacyBrowsers := "IEFrame,OperaWindowClass"
    WinGet, active_id, ID, A
    WinGetTitle, this_title, ahk_id %active_id%
    FormatTime, Time
@@ -25,7 +29,6 @@ GetSelectedText()
 
    DefaultString = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%*
 
-   MsgBox, %this_title%
    If (InStr(this_title, "Google Chrome") or InStr(this_title, "Mozilla Firefox") or InStr(this_title, "Microsoft Edge") or InStr(this_title, "Internet Explorer") or InStr(this_title, "Opera")){
        nTime := A_TickCount
      	sURL := GetActiveBrowserURL()
@@ -44,17 +47,7 @@ GetSelectedText()
    return selection
 }
 
-
-
-
-
-
-
-
-
-
-
-
+;I borrowed the code below from https://autohotkey.com/boards/viewtopic.php?t=3702
 ; AutoHotkey Version: AutoHotkey 1.1
 ; Language:           English
 ; Platform:           Win7 SP1 / Win8.1 / Win10
