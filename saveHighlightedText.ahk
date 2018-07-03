@@ -29,7 +29,10 @@ GetSelectedText()
 
    ClipWait, 1 ; wait until clipboard contains data
 
-   DefaultString = `n`n##### %Clipboard% `n* %this_title% `n* *%Time%*
+   ; Replace all spaces with pluses:
+   filteredString := StrReplace(this_title, "`r`n", " ")
+
+   DefaultString = `n`n##### %Clipboard% `n* %filteredString% `n* *%Time%*
 
    If (InStr(this_title, "Google Chrome") or InStr(this_title, "Mozilla Firefox") or InStr(this_title, "Microsoft Edge") or InStr(this_title, "Internet Explorer") or InStr(this_title, "Opera")){
        nTime := A_TickCount
