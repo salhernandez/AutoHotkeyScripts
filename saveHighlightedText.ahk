@@ -29,7 +29,7 @@ GetSelectedText()
 
    ClipWait, 1 ; wait until clipboard contains data
 
-   ; Replace all spaces with pluses:
+   ; Replace all newlines, beggining of line with spaces:
    filteredString := StrReplace(this_title, "`r`n", " ")
 
    DefaultString = `n`n##### %Clipboard% `n* %filteredString% `n* *%Time%*
