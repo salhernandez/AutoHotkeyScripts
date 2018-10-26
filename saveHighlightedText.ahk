@@ -8,7 +8,16 @@ LegacyBrowsers := "IEFrame,OperaWindowClass"
 ^+,::
 FormatTime, TimeString, YYYYMMDDHH24MISS , MM_dd_yy
 
-FileName= %HighlightsDirectory%%TimeString%.md
+; check if file exists
+FileName= %HighlightsDirectory%%TimeString%.html
+
+AttributeString := FileExist(FileName)
+
+; if the file doesn't exist
+if(AttributeString = ""){
+  mdScriptTag = <script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
+  FileAppend, % mdScriptTag, %FileName%
+}
 
 FileAppend, % GetSelectedText(), %FileName%
 
