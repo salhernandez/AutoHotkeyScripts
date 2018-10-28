@@ -136,7 +136,9 @@ The header cotains the highlighted text, then the name of the window where it go
   * A new file is generated every day
 
 ##### Installation Steps
-After downloading the script, modify `HighlightsDirectory` to point to the folder that will contain your highlights. Then run the .ahk script.
+Highlights will be located on the Desktop under a folder named "Highlights"
+Uses source code from [md-page][md-page] to convert
+markdown to html
 
 ##### TL;DR
 * Original Steps:
@@ -162,3 +164,4 @@ After downloading the script, modify `HighlightsDirectory` to point to the folde
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
+[md-page]: https://github.com/oscarmorrison/md-page

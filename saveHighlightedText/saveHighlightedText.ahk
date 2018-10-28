@@ -1,6 +1,11 @@
 #SingleInstance force
-;replace the directory path with the folder that will contains all of your Highlights
-HighlightsDirectory := "D:\Documents\Highlights\"
+
+HighlightsDirectory = %A_Desktop%\Highlights\
+
+;Places highlights folder on the desktop
+FileCreateDir, %HighlightsDirectory%
+; copies md-page.js to highlights
+FileCopy, %A_WorkingDir%\md-page.js , %HighlightsDirectory%
 
 ModernBrowsers := "ApplicationFrameWindow,Chrome_WidgetWin_0,Chrome_WidgetWin_1,Maxthon3Cls_MainFrm,MozillaWindowClass,Slimjet_WidgetWin_1"
 LegacyBrowsers := "IEFrame,OperaWindowClass"
@@ -8,7 +13,16 @@ LegacyBrowsers := "IEFrame,OperaWindowClass"
 ^+,::
 FormatTime, TimeString, YYYYMMDDHH24MISS , MM_dd_yy
 
-FileName= %HighlightsDirectory%%TimeString%.md
+; check if file exists
+FileName= %HighlightsDirectory%%TimeString%.html
+
+AttributeString := FileExist(FileName)
+
+; if the file doesn't exist
+if(AttributeString = ""){
+  mdScriptTag = <script src="./md-page.js"></script><noscript>
+  FileAppend, % mdScriptTag, %FileName%
+}
 
 FileAppend, % GetSelectedText(), %FileName%
 
