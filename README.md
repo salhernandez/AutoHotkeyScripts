@@ -85,7 +85,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 * After Script:
   * Shift+Backspace
 
-![Delete Character Gif][10]
+![Delete Character Gif][13]
 
 ### Wrap Text in Quotes:
 * Use:
