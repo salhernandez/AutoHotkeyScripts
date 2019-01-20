@@ -15,6 +15,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 * [Select To The End From Cursor](#select-to-the-end-from-cursor)
 * [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
 * [Delete Word](#delete-word)
+* [Delete Character](#delete-character)
 * [Wrap Text in Quotes](#wrap-text-in-quotes)
 * [Page Down](#page-down)
 * [Page Up](#page-up)
@@ -74,9 +75,17 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 * Original Key:
   * Ctrl+Delete
 * After Script:
-  * Alt+Backspace
+  * Ctrl+Shift+Backspace
 
 ![Delete Word Gif][10]
+
+### Delete Character
+* Original Key:
+  * Delete
+* After Script:
+  * Shift+Backspace
+
+![Delete Character Gif][10]
 
 ### Wrap Text in Quotes:
 * Use:
@@ -161,6 +170,7 @@ markdown to html
 [10]: media/DeleteWord.gif
 [11]: media/wrapTextInQuotes.gif
 [12]: media/saveHighlightedText.gif
+[13]: media/deleteCharacter.gif
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
