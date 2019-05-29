@@ -305,8 +305,8 @@ markdown to html
 [5]: media/SelectToTheEndFromCursor.gif
 [6]: media/SelectToTheBeginningFromCursor.gif
 [7]: media/SearchAnything.gif
-[8]: media/PageDown.gif
-[9]: media/PageUp.gif
+[8]: media/pageDown.gif
+[9]: media/pageUp.gif
 [10]: media/DeleteWord.gif
 [11]: media/wrapTextInQuotes.gif
 [12]: media/saveHighlightedText.gif
