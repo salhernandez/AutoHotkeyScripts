@@ -45,6 +45,8 @@ Download [AutoHotKey][AutoHotKey]
         - [TL;DR](#tldr)
 
 ### CapsLockHero
+Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
+
 ---
 #### Move Cursor Up
 * Original Action:
