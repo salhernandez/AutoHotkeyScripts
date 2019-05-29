@@ -9,7 +9,7 @@ Download [AutoHotKey][AutoHotKey]
 
 - [AutoHotKeyScripts](#autohotkeyscripts)
   - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
-  - [### CapsLockHero](#capslockhero)
+  - [CapsLockHero](#capslockhero)
       - [Move Cursor Up](#move-cursor-up)
       - [Move Cursor Down](#move-cursor-down)
       - [Move Cursor Left](#move-cursor-left)
@@ -26,25 +26,27 @@ Download [AutoHotKey][AutoHotKey]
       - [Minimize Focused Window](#minimize-focused-window)
       - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
       - [Restore/Maximize Focused Window](#restoremaximize-focused-window-1)
-  - [### Go To End Of Line](#go-to-end-of-line)
-  - [### Go To Beginning of Line](#go-to-beginning-of-line)
-  - [### Select Line To The Right Of Cursor](#select-line-to-the-right-of-cursor)
-  - [### Select Line To The Left Of Cursor](#select-line-to-the-left-of-cursor)
-  - [### Select To The End From Cursor](#select-to-the-end-from-cursor)
-  - [### Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
-  - [### Delete Word](#delete-word)
-  - [### Delete Character](#delete-character)
-  - [### Wrap Text in Quotes:](#wrap-text-in-quotes)
-  - [### Page Down](#page-down)
-  - [### Page Up](#page-up)
-  - [### Search Anything](#search-anything)
-  - [### Save Highlighted Text](#save-highlighted-text)
+  - [Go To End Of Line](#go-to-end-of-line)
+  - [Go To Beginning of Line](#go-to-beginning-of-line)
+  - [Select Line To The Right Of Cursor](#select-line-to-the-right-of-cursor)
+  - [Select Line To The Left Of Cursor](#select-line-to-the-left-of-cursor)
+  - [Select To The End From Cursor](#select-to-the-end-from-cursor)
+  - [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
+  - [Delete Word](#delete-word)
+  - [Delete Character](#delete-character)
+  - [Wrap Text in Quotes:](#wrap-text-in-quotes)
+  - [Page Down](#page-down)
+  - [Page Up](#page-up)
+  - [Search Anything](#search-anything)
+  - [Save Highlighted Text](#save-highlighted-text)
         - [What it does:](#what-it-does)
         - [TODAY'S HIGHLIGHTED DEALS](#todays-highlighted-deals)
         - [Installation Steps](#installation-steps)
         - [TL;DR](#tldr)
 
 ### CapsLockHero
+Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
+
 ---
 #### Move Cursor Up
 * Original Action:
