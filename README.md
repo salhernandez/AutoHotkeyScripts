@@ -2,28 +2,154 @@
 
 A Set of AutoHotKey scripts to make a programmer's life easier.
 
-### Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?
+## Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?
 Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier to select words in the text. So I decided to expand on that functionality with `Alt` being the AutoHotKey trigger.
 
-### Download [AutoHotKey][AutoHotKey]
+Download [AutoHotKey][AutoHotKey]
 
-## List of Scripts
-* [Go To End of Line](#go-to-end-of-line)
-* [Go To Beginning of Line](#go-to-beginning-of-line)
-* [Select Line To The Right of Cursor](#select-line-to-the-right-of-cursor)
-* [Select Line To The Left of Cursor](#select-line-to-the-left-of-cursor)
-* [Select To The End From Cursor](#select-to-the-end-from-cursor)
-* [Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
-* [Delete Word](#delete-word)
-* [Delete Character](#delete-character)
-* [Wrap Text in Quotes](#wrap-text-in-quotes)
-* [Page Down](#page-down)
-* [Page Up](#page-up)
-* [Search Anything](#search-anything)
-* [Save Highlighted Text](#save-highlighted-text)
+- [AutoHotKeyScripts](#autohotkeyscripts)
+  - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
+  - [### CapsLockHero](#capslockhero)
+      - [Move Cursor Up](#move-cursor-up)
+      - [Move Cursor Down](#move-cursor-down)
+      - [Move Cursor Left](#move-cursor-left)
+      - [Move Cursor Right](#move-cursor-right)
+      - [Cursor Left Click](#cursor-left-click)
+      - [Cursor Right Click](#cursor-right-click)
+      - [Up Arrow Action](#up-arrow-action)
+      - [Down Arrow Action](#down-arrow-action)
+      - [Left Arrow Action](#left-arrow-action)
+      - [Right Arrow Action](#right-arrow-action)
+      - [F11](#f11)
+      - [F12](#f12)
+      - [Show Focused Window](#show-focused-window)
+      - [Minimize Focused Window](#minimize-focused-window)
+      - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
+      - [Restore/Maximize Focused Window](#restoremaximize-focused-window-1)
+  - [### Go To End Of Line](#go-to-end-of-line)
+  - [### Go To Beginning of Line](#go-to-beginning-of-line)
+  - [### Select Line To The Right Of Cursor](#select-line-to-the-right-of-cursor)
+  - [### Select Line To The Left Of Cursor](#select-line-to-the-left-of-cursor)
+  - [### Select To The End From Cursor](#select-to-the-end-from-cursor)
+  - [### Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
+  - [### Delete Word](#delete-word)
+  - [### Delete Character](#delete-character)
+  - [### Wrap Text in Quotes:](#wrap-text-in-quotes)
+  - [### Page Down](#page-down)
+  - [### Page Up](#page-up)
+  - [### Search Anything](#search-anything)
+  - [### Save Highlighted Text](#save-highlighted-text)
+        - [What it does:](#what-it-does)
+        - [TODAY'S HIGHLIGHTED DEALS](#todays-highlighted-deals)
+        - [Installation Steps](#installation-steps)
+        - [TL;DR](#tldr)
 
-## Scripts
+### CapsLockHero
+---
+#### Move Cursor Up
+* Original Action:
+  * Mouse Up
+* After Script:
+  * Caps Lock (HOLD) + W
+
+#### Move Cursor Down
+* Original Action:
+  * Mouse Down
+* After Script:
+  * Caps Lock (HOLD) + S
+
+#### Move Cursor Left
+* Original Action:
+  * Mouse Left
+* After Script:
+  * Caps Lock (HOLD) + A
+
+#### Move Cursor Right
+* Original Action:
+  * Mouse Right
+* After Script:
+  * Caps Lock (HOLD) + D
+
+#### Cursor Left Click
+* Original Action:
+  * Left Click
+* After Script:
+  * Caps Lock (HOLD) + Q
+
+#### Cursor Right Click
+* Original Action:
+  * Right Click
+* After Script:
+  * Caps Lock (HOLD) + E
+
+![CapsLockHeroMouse][14]
+
+#### Up Arrow Action
+* Original Key:
+  * Up Arrow
+* After Script:
+  * Caps Lock (HOLD) + I
+
+#### Down Arrow Action
+* Original Key:
+  * Down Arrow
+* After Script:
+  * Caps Lock (HOLD) + K
+
+#### Left Arrow Action
+* Original Key:
+  * Left Arrow
+* After Script:
+  * Caps Lock (HOLD) + J
+
+#### Right Arrow Action
+* Original Key:
+  * Right Arrow
+* After Script:
+  * Caps Lock (HOLD) + L
+
+![CapsLockHeroArrows][15]
+
+#### F11
+* Original Key:
+  * F11
+* After Script:
+  * Caps Lock (HOLD) + U
+
+#### F12
+* Original Key:
+  * F12
+* After Script:
+  * Caps Lock (HOLD) + O
+
+#### Show Focused Window
+* Original Key:
+  * None
+* After Script:
+  * Caps Lock (HOLD) + N
+
+![CapsLockHeroArrows][16]
+
+#### Minimize Focused Window
+* Original Action:
+  * Click on Minimize Button
+* After Script:
+  * Caps Lock (HOLD) + P
+  
+#### Restore/Maximize Focused Window
+* Original Action:
+  * Click on Maximize Button
+* After Script:
+  * Caps Lock (HOLD) + [
+
+#### Restore/Maximize Focused Window
+* Original Action:
+  * Click on Maximize Button
+* After Script:
+  * Caps Lock (HOLD) + ]
+
 ### Go To End Of Line
+---
 * Original Key:
   * End
 * After Script:
@@ -32,6 +158,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Go To End of Line Gif][1]
 
 ### Go To Beginning of Line
+---
 * Original Key:
   * Home
 * After Script:
@@ -40,6 +167,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Go To End of Line Gif][2]
 
 ### Select Line To The Right Of Cursor
+---
 * Original Keys:
   * Shift+End
 * After Script:
@@ -48,6 +176,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Select Line To The Right of Cursor Gif][3]
 
 ### Select Line To The Left Of Cursor
+---
 * Original Keys:
   * Shift+Home
 * After Script:
@@ -56,6 +185,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Select Line To The Left of Cursor Gif][4]
 
 ### Select To The End From Cursor
+---
 * Original Keys:
   * Shift+End
 * After Script:
@@ -64,6 +194,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Select To The End From Cursor Gif][5]
 
 ### Select To The Beginning From Cursor
+---
 * Original Keys:
   * Shift+Home
 * After Script:
@@ -72,6 +203,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Select To The Beginning From Cursor Gif][6]
 
 ### Delete Word
+---
 * Original Key:
   * Ctrl+Delete
 * After Script:
@@ -80,6 +212,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Delete Word Gif][10]
 
 ### Delete Character
+---
 * Original Key:
   * Delete
 * After Script:
@@ -88,12 +221,14 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Delete Character Gif][13]
 
 ### Wrap Text in Quotes:
+---
 * Use:
   * Select Text, then Ctrl+Shift+'
 
 ![Wrap Text in Quotes Gif][11]
 
 ### Page Down
+---
 * Original Key:
   * Page Down
 * After Script:
@@ -102,6 +237,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Page Down Gif][8]
 
 ### Page Up
+---
 * Original Key:
   * Page Up
 * After Script:
@@ -110,6 +246,7 @@ Because I constantly use `Shift+Arrows` to select text, and `Ctrl` as a modifier
 ![Page Up Gif][9]
 
 ### Search Anything
+---
 * Original Steps:
   1. Copy Text
   2. Go to Google
@@ -123,6 +260,7 @@ Inspired by [lifehacker][lifehacker]
 ![Search Anything Gif][7]
 
 ### Save Highlighted Text
+---
 ##### What it does:
 Saves the highlited text to a file, and it saves it with markdown syntax to a .md file
 
@@ -171,6 +309,9 @@ markdown to html
 [11]: media/wrapTextInQuotes.gif
 [12]: media/saveHighlightedText.gif
 [13]: media/deleteCharacter.gif
+[14]: media/CapsLockHeroMouse.gif
+[15]: media/CapsLockHeroArrows.gif
+[16]: media/CapsLockHeroShowActiveWindow.gif
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
