@@ -68,6 +68,11 @@ CapsLock & ]::
 	WinClose, A
 return
 
+CapsLock & H::
+    Send, {Shift down}{f10 down}
+    Send, {Shift up}{f10 down}
+return
+
 CapsLock & N::
 ; Took most of this one from the AHK Forums
 border_thickness = 10
