@@ -52,7 +52,7 @@ CapsLock & O::
 	Send, {F12 up}
 return
 
-;Window Buttons
+;Window Buttons - Minimize Window
 CapsLock & p:: WinMinimize, A
 return
 
@@ -71,6 +71,12 @@ return
 CapsLock & H::
     Send, {Shift down}{f10 down}
     Send, {Shift up}{f10 down}
+return
+
+; Hard Refresh
+CapsLock & Y::
+    Send, {Ctrl down}{Shift down}{R down}
+    Send, {Ctrl up}{Shift up}{R up}
 return
 
 CapsLock & N::
