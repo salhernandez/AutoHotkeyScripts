@@ -82,6 +82,12 @@ CapsLock & Y::
     Send, {Ctrl up}{Shift up}{R up}
 return
 
+; Delete
+Capslock & BackSpace::
+    Send, {Delete down}
+    Send, {Delete up}
+return
+
 CapsLock & N::
 ; Took most of this one from the AHK Forums
 border_thickness = 10
