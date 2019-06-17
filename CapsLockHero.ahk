@@ -52,10 +52,11 @@ CapsLock & O::
 	Send, {F12 up}
 return
 
-;Window Buttons
+; Window Buttons - Minimize Window
 CapsLock & p:: WinMinimize, A
 return
 
+; Maximize/Restore Window
 CapsLock & [::
 	WinGet, WinStyle, MinMax, % "ahk_id " WinExist("A")
 	If (WinStyle = 1)
@@ -64,8 +65,27 @@ CapsLock & [::
 		WinMaximize, A
 return
 
+; Close Window
 CapsLock & ]:: 
 	WinClose, A
+return
+
+; Menu Button
+CapsLock & H::
+    Send, {Shift down}{f10 down}
+    Send, {Shift up}{f10 down}
+return
+
+; Hard Refresh
+CapsLock & Y::
+    Send, {Ctrl down}{Shift down}{R down}
+    Send, {Ctrl up}{Shift up}{R up}
+return
+
+; Delete
+Capslock & BackSpace::
+    Send, {Delete down}
+    Send, {Delete up}
 return
 
 CapsLock & N::
