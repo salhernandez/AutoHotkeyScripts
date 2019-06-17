@@ -70,6 +70,7 @@ CapsLock & ]::
 	WinClose, A
 return
 
+; Menu Button
 CapsLock & H::
     Send, {Shift down}{f10 down}
     Send, {Shift up}{f10 down}
