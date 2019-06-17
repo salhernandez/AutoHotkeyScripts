@@ -52,10 +52,11 @@ CapsLock & O::
 	Send, {F12 up}
 return
 
-;Window Buttons - Minimize Window
+; Window Buttons - Minimize Window
 CapsLock & p:: WinMinimize, A
 return
 
+; Maximize/Restore Window
 CapsLock & [::
 	WinGet, WinStyle, MinMax, % "ahk_id " WinExist("A")
 	If (WinStyle = 1)
@@ -64,6 +65,7 @@ CapsLock & [::
 		WinMaximize, A
 return
 
+; Close Window
 CapsLock & ]:: 
 	WinClose, A
 return
