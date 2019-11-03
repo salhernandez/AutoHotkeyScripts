@@ -25,7 +25,10 @@ Download [AutoHotKey][AutoHotKey]
       - [Show Focused Window](#show-focused-window)
       - [Minimize Focused Window](#minimize-focused-window)
       - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
-      - [Restore/Maximize Focused Window](#restoremaximize-focused-window-1)
+      - [Close Focused Window](#close-window)
+      - [Go to Previous Tab](#go-to-previous-tab)
+      - [Go to Next Tab](#go-to-next-tab)
+
   - [Go To End Of Line](#go-to-end-of-line)
   - [Go To Beginning of Line](#go-to-beginning-of-line)
   - [Select Line To The Right Of Cursor](#select-line-to-the-right-of-cursor)
@@ -144,11 +147,23 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
 * After Script:
   * Caps Lock (HOLD) + [
 
-#### Restore/Maximize Focused Window
+#### Close Focused Window
 * Original Action:
-  * Click on Maximize Button
+  * Click on Close Button
 * After Script:
   * Caps Lock (HOLD) + ]
+
+#### Go to Previous Tab
+* Original Action:
+  * Ctrl + Shift + Tab
+* After Script:
+  * Caps Lock (HOLD) + F
+
+#### Go to Next Tab
+* Original Action:
+  * Ctrl + Tab
+* After Script:
+  * Caps Lock (HOLD) + G
 
 ### Go To End Of Line
 ---
