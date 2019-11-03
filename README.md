@@ -25,7 +25,7 @@ Download [AutoHotKey][AutoHotKey]
       - [Show Focused Window](#show-focused-window)
       - [Minimize Focused Window](#minimize-focused-window)
       - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
-      - [Close Focused Window](#close-window)
+      - [Close Focused Window](#close-focused-window)
       - [Go to Previous Tab](#go-to-previous-tab)
       - [Go to Next Tab](#go-to-next-tab)
 
