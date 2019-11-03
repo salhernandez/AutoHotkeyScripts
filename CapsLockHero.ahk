@@ -88,6 +88,19 @@ Capslock & BackSpace::
     Send, {Delete up}
 return
 
+; Cycle tab left
+CapsLock & F::
+    Send, {Ctrl down}{Shift down}{Tab down}
+    Send, {Ctrl up}{Shift up}{Tab up}
+return
+
+; Cycle tab left
+CapsLock & G::
+    Send, {Ctrl down}{Tab down}
+    Send, {Ctrl up}{Tab up}
+return
+
+; Show active Window
 CapsLock & N::
 ; Took most of this one from the AHK Forums
 border_thickness = 10
