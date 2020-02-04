@@ -15,7 +15,7 @@ CapsLock::
 return
 
 ;===============================================================================================
-; Bind jkli to left, down, right
+; Bind jkli to left, down, right, up
 ;===============================================================================================
 CapsLock & J::Send, {blind}{Left}
 CapsLock & K::Send, {blind}{Down}
