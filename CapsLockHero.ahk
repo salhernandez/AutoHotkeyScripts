@@ -1,21 +1,26 @@
 #Persistent
 #SingleInstance force
 
-CapsLock & J::
-	Send, {Left down}
+;================================================================================================
+;  CapsLock processing.  Must double tap CapsLock to toggle CapsLock mode on or off.
+;================================================================================================
+; Must double tap CapsLock to toggle CapsLock mode on or off.
+CapsLock::
+    KeyWait, CapsLock                                                   ; Wait forever until Capslock is released.
+    KeyWait, CapsLock, D T0.2                                           ; ErrorLevel = 1 if CapsLock not down within 0.2 seconds.
+    if ((ErrorLevel = 0) && (A_PriorKey = "CapsLock") )                 ; Is a double tap on CapsLock?
+        {
+        SetCapsLockState, % GetKeyState("CapsLock","T") ? "Off" : "On"  ; Toggle the state of CapsLock LED
+        }
 return
 
-CapsLock & K::
-    Send, {Down down}
-return
-
-CapsLock & L::
-    Send, {Right down}
-return
-
-CapsLock & I::
-    Send, {Up down}
-return
+;===============================================================================================
+; Bind jkli to left, down, right, up
+;===============================================================================================
+CapsLock & J::Send, {blind}{Left}
+CapsLock & K::Send, {blind}{Down}
+CapsLock & L::Send, {blind}{Right}
+CapsLock & I::Send, {blind}{Up}
 	
 	
 ; Mouse Control
