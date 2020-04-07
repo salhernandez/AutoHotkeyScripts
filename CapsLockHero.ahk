@@ -105,6 +105,12 @@ CapsLock & G::
     Send, {Ctrl up}{Tab up}
 return
 
+; Connect Galaxy Buds Plus Bluetooth device
+CapsLock & 1::
+    EnvGet, GalaxyBudsPlus, GALAXY_BUDS_PLUS
+    run, %comspec% /c btcom -b "%GalaxyBudsPlus%" -c -s110b,,hide
+return
+
 ; Show active Window
 CapsLock & N::
 ; Took most of this one from the AHK Forums
