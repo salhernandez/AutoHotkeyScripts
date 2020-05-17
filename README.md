@@ -9,9 +9,12 @@ Download [AutoHotKey][AutoHotKey]
 
 - [AutoHotKeyScripts](#autohotkeyscripts)
   - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
-  - [CapsLockHero](#capslockhero)
+    - [SurfacePenOverrides](#surfacepenoverrides)
+      - [Undo (Ctrl + Z)](#undo-ctrl--z)
+      - [Redo (Ctrl + Y)](#redo-ctrl--y)
+    - [CapsLockHero](#capslockhero)
       - [Move Cursor Up](#move-cursor-up)
-      - [Move Cursor Down](#move-cursor-down)
+      - [Move Cursor Down](#move-cursor-down-1)
       - [Move Cursor Left](#move-cursor-left)
       - [Move Cursor Right](#move-cursor-right)
       - [Cursor Left Click](#cursor-left-click)
@@ -28,6 +31,23 @@ Download [AutoHotKey][AutoHotKey]
       - [Close Focused Window](#close-focused-window)
       - [Go to Previous Tab](#go-to-previous-tab)
       - [Go to Next Tab](#go-to-next-tab)
+  - [Go To End Of Line](#h3-id%22go-to-end-of-line-410%22go-to-end-of-lineh3)
+  - [Go To Beginning of Line](#h3-id%22go-to-beginning-of-line-410%22go-to-beginning-of-lineh3)
+  - [Select Line To The Right Of Cursor](#h3-id%22select-line-to-the-right-of-cursor-410%22select-line-to-the-right-of-cursorh3)
+  - [Select Line To The Left Of Cursor](#h3-id%22select-line-to-the-left-of-cursor-410%22select-line-to-the-left-of-cursorh3)
+  - [Select To The End From Cursor](#h3-id%22select-to-the-end-from-cursor-410%22select-to-the-end-from-cursorh3)
+  - [Select To The Beginning From Cursor](#h3-id%22select-to-the-beginning-from-cursor-410%22select-to-the-beginning-from-cursorh3)
+  - [Delete Word](#h3-id%22delete-word-410%22delete-wordh3)
+  - [Delete Character](#h3-id%22delete-character-410%22delete-characterh3)
+  - [Wrap Text in Quotes:](#h3-id%22wrap-text-in-quotes-410%22wrap-text-in-quotesh3)
+  - [Page Down](#h3-id%22page-down-410%22page-downh3)
+  - [Page Up](#h3-id%22page-up-410%22page-uph3)
+  - [Search Anything](#h3-id%22search-anything-410%22search-anythingh3)
+  - [Save Highlighted Text](#h3-id%22save-highlighted-text-410%22save-highlighted-texth3)
+        - [What it does:](#what-it-does)
+        - [TODAY'S HIGHLIGHTED DEALS](#todays-highlighted-deals)
+        - [Installation Steps](#installation-steps)
+        - [TL;DR](#tldr)
 
   - [Go To End Of Line](#go-to-end-of-line)
   - [Go To Beginning of Line](#go-to-beginning-of-line)
@@ -47,10 +67,36 @@ Download [AutoHotKey][AutoHotKey]
         - [Installation Steps](#installation-steps)
         - [TL;DR](#tldr)
 
+### SurfacePenOverrides
+---
+Make sure to enable Surface Pen overrides in 
+Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut button behavior
+
+#### Undo (Ctrl + Z)
+* Original Action:
+  * Ctrl + C
+  * Hit undo icon on OneNote
+* After Script:
+  * Click eraser once
+
+#### Redo (Ctrl + Y)
+* Original Action:
+  * Ctrl + C
+  * Hit redo icon on OneNote
+* After Script:
+  * Click eraser twice
+
 ### CapsLockHero
 Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
 
 ---
+
+#### Move Cursor Down
+* Original Action:
+  * Mouse Down
+* After Script:
+  * Caps Lock (HOLD) + S
+  
 #### Move Cursor Up
 * Original Action:
   * Mouse Up
