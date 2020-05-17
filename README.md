@@ -11,8 +11,7 @@ Download [AutoHotKey][AutoHotKey]
   - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
     - [SurfacePenOverrides](#surfacepenoverrides)
       - [Undo (Ctrl + Z)](#undo-ctrl--z)
-      - [Redo (Ctrl + Z)](#redo-ctrl--z)
-      - [Move Cursor Down](#move-cursor-down)
+      - [Redo (Ctrl + y)](#redo-ctrl--z)
     - [CapsLockHero](#capslockhero)
       - [Move Cursor Up](#move-cursor-up)
       - [Move Cursor Down](#move-cursor-down-1)
@@ -80,7 +79,7 @@ Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut bu
 * After Script:
   * Click eraser once
 
-#### Redo (Ctrl + Z)
+#### Redo (Ctrl + Y)
 * Original Action:
   * Ctrl + C
   * Hit redo icon on OneNote
