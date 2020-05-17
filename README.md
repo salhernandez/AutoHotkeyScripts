@@ -87,16 +87,17 @@ Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut bu
 * After Script:
   * Click eraser twice
 
+### CapsLockHero
+Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
+
+---
+
 #### Move Cursor Down
 * Original Action:
   * Mouse Down
 * After Script:
   * Caps Lock (HOLD) + S
-
-### CapsLockHero
-Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
-
----
+  
 #### Move Cursor Up
 * Original Action:
   * Mouse Up
