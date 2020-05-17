@@ -69,6 +69,7 @@ Download [AutoHotKey][AutoHotKey]
         - [TL;DR](#tldr)
 
 ### SurfacePenOverrides
+---
 Make sure to enable Surface Pen overrides in 
 Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut button behavior
 
