@@ -9,9 +9,12 @@ Download [AutoHotKey][AutoHotKey]
 
 - [AutoHotKeyScripts](#autohotkeyscripts)
   - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
-  - [CapsLockHero](#capslockhero)
+    - [SurfacePenOverrides](#surfacepenoverrides)
+      - [Undo (Ctrl + Z)](#undo-ctrl--z)
+      - [Redo (Ctrl + Y)](#redo-ctrl--y)
+    - [CapsLockHero](#capslockhero)
       - [Move Cursor Up](#move-cursor-up)
-      - [Move Cursor Down](#move-cursor-down)
+      - [Move Cursor Down](#move-cursor-down-1)
       - [Move Cursor Left](#move-cursor-left)
       - [Move Cursor Right](#move-cursor-right)
       - [Cursor Left Click](#cursor-left-click)
@@ -49,10 +52,36 @@ Download [AutoHotKey][AutoHotKey]
         - [Installation Steps](#installation-steps)
         - [TL;DR](#tldr)
 
+### SurfacePenOverrides
+---
+Make sure to enable Surface Pen overrides in 
+Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut button behavior
+
+#### Undo (Ctrl + Z)
+* Original Action:
+  * Ctrl + C
+  * Hit undo icon on OneNote
+* After Script:
+  * Click eraser once
+
+#### Redo (Ctrl + Y)
+* Original Action:
+  * Ctrl + C
+  * Hit redo icon on OneNote
+* After Script:
+  * Click eraser twice
+
 ### CapsLockHero
 Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
 
 ---
+
+#### Move Cursor Down
+* Original Action:
+  * Mouse Down
+* After Script:
+  * Caps Lock (HOLD) + S
+  
 #### Move Cursor Up
 * Original Action:
   * Mouse Up
