@@ -31,23 +31,8 @@ Download [AutoHotKey][AutoHotKey]
       - [Close Focused Window](#close-focused-window)
       - [Go to Previous Tab](#go-to-previous-tab)
       - [Go to Next Tab](#go-to-next-tab)
-  - [Go To End Of Line](#h3-id%22go-to-end-of-line-410%22go-to-end-of-lineh3)
-  - [Go To Beginning of Line](#h3-id%22go-to-beginning-of-line-410%22go-to-beginning-of-lineh3)
-  - [Select Line To The Right Of Cursor](#h3-id%22select-line-to-the-right-of-cursor-410%22select-line-to-the-right-of-cursorh3)
-  - [Select Line To The Left Of Cursor](#h3-id%22select-line-to-the-left-of-cursor-410%22select-line-to-the-left-of-cursorh3)
-  - [Select To The End From Cursor](#h3-id%22select-to-the-end-from-cursor-410%22select-to-the-end-from-cursorh3)
-  - [Select To The Beginning From Cursor](#h3-id%22select-to-the-beginning-from-cursor-410%22select-to-the-beginning-from-cursorh3)
-  - [Delete Word](#h3-id%22delete-word-410%22delete-wordh3)
-  - [Delete Character](#h3-id%22delete-character-410%22delete-characterh3)
-  - [Wrap Text in Quotes:](#h3-id%22wrap-text-in-quotes-410%22wrap-text-in-quotesh3)
-  - [Page Down](#h3-id%22page-down-410%22page-downh3)
-  - [Page Up](#h3-id%22page-up-410%22page-uph3)
-  - [Search Anything](#h3-id%22search-anything-410%22search-anythingh3)
-  - [Save Highlighted Text](#h3-id%22save-highlighted-text-410%22save-highlighted-texth3)
-        - [What it does:](#what-it-does)
-        - [TODAY'S HIGHLIGHTED DEALS](#todays-highlighted-deals)
-        - [Installation Steps](#installation-steps)
-        - [TL;DR](#tldr)
+      - [Page Up](#page-up)
+      - [Page Down](#page-down)
 
   - [Go To End Of Line](#go-to-end-of-line)
   - [Go To Beginning of Line](#go-to-beginning-of-line)
@@ -210,6 +195,18 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
   * Ctrl + Tab
 * After Script:
   * Caps Lock (HOLD) + G
+
+#### Page Up
+* Page Up:
+  * Page Up
+* After Script:
+  * Caps Lock (HOLD) + R
+
+#### Page Down
+* Page Down:
+  * Page Down
+* After Script:
+  * Caps Lock (HOLD) + V
 
 ### Go To End Of Line
 ---
