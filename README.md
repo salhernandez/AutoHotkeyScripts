@@ -28,6 +28,8 @@ Download [AutoHotKey][AutoHotKey]
       - [Close Focused Window](#close-focused-window)
       - [Go to Previous Tab](#go-to-previous-tab)
       - [Go to Next Tab](#go-to-next-tab)
+      - [Page Up](#page-up)
+      - [Page Down](#page-down)
 
   - [Go To End Of Line](#go-to-end-of-line)
   - [Go To Beginning of Line](#go-to-beginning-of-line)
@@ -164,6 +166,18 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
   * Ctrl + Tab
 * After Script:
   * Caps Lock (HOLD) + G
+
+#### Page Up
+* Page Up:
+  * Page Up
+* After Script:
+  * Caps Lock (HOLD) + R
+
+#### Page Down
+* Page Down:
+  * Page Down
+* After Script:
+  * Caps Lock (HOLD) + V
 
 ### Go To End Of Line
 ---
