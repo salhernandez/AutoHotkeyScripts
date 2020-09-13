@@ -74,6 +74,8 @@ Settings -> Devices -> Pen and Windows Ink -> Allow apps to override shortcut bu
 ### CapsLockHero
 Why Use Caps Lock as a modifier... because no one really uses it other than to write very angry comments online.
 
+![Mapped CapsLock Keys][17]
+
 ---
 
 #### Move Cursor Down
@@ -197,17 +199,23 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
   * Caps Lock (HOLD) + G
 
 #### Page Up
-* Page Up:
+* Original Action:
   * Page Up
 * After Script:
   * Caps Lock (HOLD) + R
 
 #### Page Down
-* Page Down:
+* Original Action:
   * Page Down
 * After Script:
   * Caps Lock (HOLD) + V
 
+#### Show CapsLock Hotkeys
+* Use
+  * Caps Lock (HOLD) + C
+* Description
+  * Shows Hotkeys mapped to CapsLock
+  
 ### Go To End Of Line
 ---
 * Original Key:
@@ -372,6 +380,7 @@ markdown to html
 [14]: media/CapsLockHeroMouse.gif
 [15]: media/CapsLockHeroArrows.gif
 [16]: media/CapsLockHeroShowActiveWindow.gif
+[17]: media/CapsLockHeroScreenKeyboard.png
 
 [lifehacker]: https://lifehacker.com/5598693/the-best-time-saving-autohotkey-tricks-you-should-be-using
 [AutoHotKey]: https://autohotkey.com/download/
