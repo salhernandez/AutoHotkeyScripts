@@ -215,7 +215,7 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
   * Caps Lock (HOLD) + C
 * Description
   * Shows Hotkeys mapped to CapsLock
-
+  
 ### Go To End Of Line
 ---
 * Original Key:
