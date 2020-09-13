@@ -307,7 +307,7 @@ Gui, Add, Button, x+%k_KeyMargin% h%k_KeyHeight%, Enter  ; Auto-width.
 Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Shift%A_Space%%A_Space%
 Gui, Add, Button, %k_Position%, Z
 Gui, Add, Button, %k_Position%, X
-Gui, Add, Button, %k_Position%, C
+Gui, Add, Button, %k_Position%, C `n show keyboard
 Gui, Add, Button, %k_Position%, V
 Gui, Add, Button, %k_Position%, B
 Gui, Add, Button, %k_Position%, N `n show focused window
