@@ -353,7 +353,7 @@ CloseGuiTimer()
 
 CloseGuiTimer()
 {
-    Sleep, 5000
+    Sleep, 4000
     Gui, Cancel
 	return
 }
@@ -362,13 +362,9 @@ k_ShowHide:
 if k_IsVisible = y
 {
     Gui, Cancel
-    Menu, Tray, Rename, %k_MenuItemHide%, %k_MenuItemShow%
-    k_IsVisible = n
 }
 else
 {
     Gui, Show
-    Menu, Tray, Rename, %k_MenuItemShow%, %k_MenuItemHide%
-    k_IsVisible = y
 }
 return
