@@ -349,12 +349,6 @@ WinMove, A,, %k_WindowX%, %k_WindowY%
 WinSet, AlwaysOnTop, On, ahk_id %k_ID%
 WinSet, TransColor, %TransColor% 220, ahk_id %k_ID%
 
-
-;---- Set all keys as hotkeys. See www.asciitable.com
-k_n = 1
-k_ASCII = 45
-
-
 CloseGuiTimer()
 
 CloseGuiTimer()
