@@ -89,8 +89,8 @@ return
 
 ; Delete
 Capslock & BackSpace::
-    Send, {Delete down}
-    Send, {Delete up}
+    Send, {Blind}{Delete down}
+    Send, {Blind}{Delete up}
 return
 
 ; Cycle tab left
@@ -120,7 +120,7 @@ CapsLock & V::
     {
         Send {PgDn}
         Sleep 200
-    }
+    }   
     return
 
 ; Show active Window
