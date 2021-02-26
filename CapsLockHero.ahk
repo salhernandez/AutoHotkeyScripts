@@ -304,7 +304,7 @@ Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Tab  ; Auto-width.
 Gui, Add, Button, %k_Position%, Q `r left click
 Gui, Add, Button, %k_Position%, W `r mouse up
 Gui, Add, Button, %k_Position%, E `r right click
-Gui, Add, Button, %k_Position%, R `r page up
+Gui, Add, Button, %k_Position%, R `r wheel up
 Gui, Add, Button, %k_Position%, T
 Gui, Add, Button, %k_Position%, Y
 Gui, Add, Button, %k_Position%, U `r F11
@@ -334,7 +334,7 @@ Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Shift%A_Space%%A_Space%
 Gui, Add, Button, %k_Position%, Z
 Gui, Add, Button, %k_Position%, X
 Gui, Add, Button, %k_Position%, C `n show keyboard
-Gui, Add, Button, %k_Position%, V `r page down
+Gui, Add, Button, %k_Position%, V `r wheel down
 Gui, Add, Button, %k_Position%, B
 Gui, Add, Button, %k_Position%, N `n show focused window
 Gui, Add, Button, %k_Position%, M
