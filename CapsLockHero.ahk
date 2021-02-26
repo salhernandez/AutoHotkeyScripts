@@ -107,20 +107,12 @@ return
 
 ; Page Up
 CapsLock & R::
-    While GetKeyState("R","P")
-    {
-        Send {PgUp}
-        Sleep 200
-    }
+    Send, {WheelUp}
     return
 
 ; Page Down
 CapsLock & V::
-    While GetKeyState("V","P")
-    {
-        Send {PgDn}
-        Sleep 200
-    }   
+    Send, {WheelDown}
     return
 
 ; Show active Window
