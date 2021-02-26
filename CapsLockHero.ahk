@@ -105,22 +105,48 @@ CapsLock & G::
     Send, {Ctrl up}{Tab up}
 return
 
-; Page Up
+; Scroll Up
 CapsLock & R::
-    While GetKeyState("R","P")
-    {
-        Send {PgUp}
-        Sleep 200
+    if(GetKeyState("Shift","p")){
+        ; continues scrolling
+        count:=0
+        While GetKeyState("Shift","p") ; does this loop while you hold shift
+        { 
+            Send {WheelUp}
+            Sleep 100
+            count++
+        }
+
+        if(GetKeyState("CapsLock","p") = False){
+            Send {WheelDown %count%}
+        }
+        return
+
+    } else {
+        Send, {WheelUp}
     }
     return
 
-; Page Down
+; Scroll Down
 CapsLock & V::
-    While GetKeyState("V","P")
-    {
-        Send {PgDn}
-        Sleep 200
-    }   
+    if(GetKeyState("Shift","p")){
+        ; continues scrolling
+        count:=0
+        While GetKeyState("Shift","p") ; does this loop while you hold shift
+        { 
+            Send {WheelDown}
+            Sleep 100
+            count++
+        }
+
+        if(GetKeyState("CapsLock","p") = False){
+            Send {WheelUp %count%}
+        }
+        return
+
+    } else {
+        Send, {WheelDown}
+    }
     return
 
 ; Show active Window
@@ -278,7 +304,7 @@ Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Tab  ; Auto-width.
 Gui, Add, Button, %k_Position%, Q `r left click
 Gui, Add, Button, %k_Position%, W `r mouse up
 Gui, Add, Button, %k_Position%, E `r right click
-Gui, Add, Button, %k_Position%, R `r page up
+Gui, Add, Button, %k_Position%, R `r wheel up
 Gui, Add, Button, %k_Position%, T
 Gui, Add, Button, %k_Position%, Y
 Gui, Add, Button, %k_Position%, U `r F11
@@ -308,7 +334,7 @@ Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Shift%A_Space%%A_Space%
 Gui, Add, Button, %k_Position%, Z
 Gui, Add, Button, %k_Position%, X
 Gui, Add, Button, %k_Position%, C `n show keyboard
-Gui, Add, Button, %k_Position%, V `r page down
+Gui, Add, Button, %k_Position%, V `r wheel down
 Gui, Add, Button, %k_Position%, B
 Gui, Add, Button, %k_Position%, N `n show focused window
 Gui, Add, Button, %k_Position%, M
