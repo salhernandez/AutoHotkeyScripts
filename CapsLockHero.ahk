@@ -105,14 +105,48 @@ CapsLock & G::
     Send, {Ctrl up}{Tab up}
 return
 
-; Page Up
+; Scroll Up
 CapsLock & R::
-    Send, {WheelUp}
+    if(GetKeyState("Shift","p")){
+        ; continues scrolling
+        count:=0
+        While GetKeyState("Shift","p") ; does this loop while you hold shift
+        { 
+            Send {WheelUp}
+            Sleep 100
+            count++
+        }
+
+        if(GetKeyState("CapsLock","p") = False){
+            Send {WheelDown %count%}
+        }
+        return
+
+    } else {
+        Send, {WheelUp}
+    }
     return
 
-; Page Down
+; Scroll Down
 CapsLock & V::
-    Send, {WheelDown}
+    if(GetKeyState("Shift","p")){
+        ; continues scrolling
+        count:=0
+        While GetKeyState("Shift","p") ; does this loop while you hold shift
+        { 
+            Send {WheelDown}
+            Sleep 100
+            count++
+        }
+
+        if(GetKeyState("CapsLock","p") = False){
+            Send {WheelUp %count%}
+        }
+        return
+
+    } else {
+        Send, {WheelDown}
+    }
     return
 
 ; Show active Window
