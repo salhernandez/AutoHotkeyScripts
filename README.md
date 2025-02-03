@@ -9,30 +9,49 @@ Download [AutoHotKey][AutoHotKey]
 
 - [AutoHotKeyScripts](#autohotkeyscripts)
   - [Why Use `Ctrl+Alt` and `Ctrl+Shift+Alt` with `Arrow Keys`?](#why-use-ctrlalt-and-ctrlshiftalt-with-arrow-keys)
-    - [SurfacePenOverrides](#surfacepenoverrides)
-      - [Undo (Ctrl + Z)](#undo-ctrl--z)
-      - [Redo (Ctrl + Y)](#redo-ctrl--y)
-    - [CapsLockHero](#capslockhero)
-      - [Move Cursor Up](#move-cursor-up)
-      - [Move Cursor Down](#move-cursor-down-1)
-      - [Move Cursor Left](#move-cursor-left)
-      - [Move Cursor Right](#move-cursor-right)
-      - [Cursor Left Click](#cursor-left-click)
-      - [Cursor Right Click](#cursor-right-click)
-      - [Up Arrow Action](#up-arrow-action)
-      - [Down Arrow Action](#down-arrow-action)
-      - [Left Arrow Action](#left-arrow-action)
-      - [Right Arrow Action](#right-arrow-action)
-      - [F11](#f11)
-      - [F12](#f12)
-      - [Show Focused Window](#show-focused-window)
-      - [Minimize Focused Window](#minimize-focused-window)
-      - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
-      - [Close Focused Window](#close-focused-window)
-      - [Go to Previous Tab](#go-to-previous-tab)
-      - [Go to Next Tab](#go-to-next-tab)
-      - [Page Up](#page-up)
-      - [Page Down](#page-down)
+  - [SurfacePenOverrides](#surfacepenoverrides)
+    - [Undo (Ctrl + Z)](#undo-ctrl--z)
+    - [Redo (Ctrl + Y)](#redo-ctrl--y)
+  - [CapsLockHero](#capslockhero)
+    - [Move Cursor Down](#move-cursor-down)
+    - [Move Cursor Up](#move-cursor-up)
+    - [Move Cursor Down](#move-cursor-down-1)
+    - [Move Cursor Left](#move-cursor-left)
+    - [Move Cursor Right](#move-cursor-right)
+    - [Cursor Left Click](#cursor-left-click)
+    - [Cursor Right Click](#cursor-right-click)
+    - [Up Arrow Action](#up-arrow-action)
+    - [Down Arrow Action](#down-arrow-action)
+    - [Left Arrow Action](#left-arrow-action)
+    - [Right Arrow Action](#right-arrow-action)
+    - [F11](#f11)
+    - [F12](#f12)
+    - [Show Focused Window](#show-focused-window)
+    - [Minimize Focused Window](#minimize-focused-window)
+    - [Restore/Maximize Focused Window](#restoremaximize-focused-window)
+    - [Close Focused Window](#close-focused-window)
+    - [Go to Previous Tab](#go-to-previous-tab)
+    - [Go to Next Tab](#go-to-next-tab)
+    - [Wheel Up](#wheel-up)
+    - [Wheel Down](#wheel-down)
+    - [Show CapsLock Hotkeys](#show-capslock-hotkeys)
+  - [ Go To End Of Line](#go-to-end-of-line)
+  - [ Go To Beginning of Line](#go-to-beginning-of-line)
+  - [ Select Line To The Right Of Cursor](#select-line-to-the-right-of-cursor)
+  - [ Select Line To The Left Of Cursor](#select-line-to-the-left-of-cursor)
+  - [ Select To The End From Cursor](#select-to-the-end-from-cursor)
+  - [ Select To The Beginning From Cursor](#select-to-the-beginning-from-cursor)
+  - [ Delete Word](#delete-word)
+  - [ Delete Character](#delete-character)
+  - [ Wrap Text in Quotes:](#wrap-text-in-quotes)
+  - [ Page Down](#page-down)
+  - [ Page Up](#page-up)
+  - [ Search Anything](#search-anything)
+  - [ Save Highlighted Text](#save-highlighted-text)
+        - [What it does:](#what-it-does)
+        - [TODAY'S HIGHLIGHTED DEALS](#todays-highlighted-deals)
+        - [Installation Steps](#installation-steps)
+        - [TL;DR](#tldr)
 
   - [Go To End Of Line](#go-to-end-of-line)
   - [Go To Beginning of Line](#go-to-beginning-of-line)
@@ -198,15 +217,15 @@ Why Use Caps Lock as a modifier... because no one really uses it other than to w
 * After Script:
   * Caps Lock (HOLD) + G
 
-#### Page Up
+#### Wheel Up
 * Original Action:
-  * Page Up
+  * Mouse Wheel Up
 * After Script:
   * Caps Lock (HOLD) + R
 
-#### Page Down
+#### Wheel Down
 * Original Action:
-  * Page Down
+  * Mouse Wheel Down
 * After Script:
   * Caps Lock (HOLD) + V
 
