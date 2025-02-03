@@ -78,7 +78,7 @@ return
 ; Menu Button
 CapsLock & H::
     Send, {Shift down}{f10 down}
-    Send, {Shift up}{f10 down}
+    Send, {Shift up}{f10 up}
 return
 
 ; Hard Refresh
@@ -105,6 +105,42 @@ CapsLock & G::
     Send, {Ctrl up}{Tab up}
 return
 
+; Debugger: Continue
+CapsLock & B::
+    Send, {blind}{f5 down}
+    Send, {blind}{f5 up}
+return
+
+; Debugger: Step Over
+CapsLock & N::
+    Send, {blind}{f10 down}
+    Send, {blind}{f10 up}
+return
+
+; Debugger: Step Into
+CapsLock & M::
+    Send, {blind}{f11 down}
+    Send, {blind}{f11 up}
+return
+
+; Debugger: Step Out
+CapsLock & ,::
+    Send, {Shift down}{f11 down}
+    Send, {Shift up}{f11 up}
+return
+
+; Debugger: Restart
+CapsLock & .::
+    Send, {Ctrl down}{Shift down}{f5 down}
+    Send, {Ctrl up}{Shift up}{f5 up}
+return
+
+; Debugger: Stop
+CapsLock & /::
+    Send, {Shift down}{f5 down}
+    Send, {Shift up}{f5 up}
+return
+
 ; Page Up
 CapsLock & R::
     While GetKeyState("R","P")
@@ -124,7 +160,7 @@ CapsLock & V::
     return
 
 ; Show active Window
-CapsLock & N::
+CapsLock & X::
 ; Took most of this one from the AHK Forums
 border_thickness = 10
 border_color = FF0000
@@ -306,15 +342,15 @@ Gui, Add, Button, x+%k_KeyMargin% h%k_KeyHeight%, Enter  ; Auto-width.
 ; making the layout of keys next to it more accurately reflect a real keyboard:
 Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Shift%A_Space%%A_Space%
 Gui, Add, Button, %k_Position%, Z
-Gui, Add, Button, %k_Position%, X
+Gui, Add, Button, %k_Position%, X `n show focused window
 Gui, Add, Button, %k_Position%, C `n show keyboard
 Gui, Add, Button, %k_Position%, V `r page down
-Gui, Add, Button, %k_Position%, B
-Gui, Add, Button, %k_Position%, N `n show focused window
-Gui, Add, Button, %k_Position%, M
-Gui, Add, Button, %k_Position%, `,
-Gui, Add, Button, %k_Position%, .
-Gui, Add, Button, %k_Position%, /
+Gui, Add, Button, %k_Position%, B `n Debugger: Contiue
+Gui, Add, Button, %k_Position%, N `n Debugger: Step Over
+Gui, Add, Button, %k_Position%, M `n Debugger: Step Into
+Gui, Add, Button, %k_Position%, `, `n Debugger: Step Out
+Gui, Add, Button, %k_Position%, . `n Debugger: Restart
+Gui, Add, Button, %k_Position%, / `n Debugger: Stop
 
 Gui, Add, Button, xm y+%k_KeyMargin% h%k_KeyHeight%, Ctrl  ; Auto-width.
 Gui, Add, Button, h%k_KeyHeight% x+%k_KeyMargin%, Win      ; Auto-width.
